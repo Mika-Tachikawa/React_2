@@ -17,7 +17,12 @@
 import ReactDOM from "react-dom";
 
 const App = () => {
-  return <h1>こんにちは</h1>;
+  return (
+    <>
+      <h1>こんにちは</h1>
+      <p>タグで囲むルール</p>
+    </>
+  );
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));

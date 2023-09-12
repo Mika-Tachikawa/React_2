@@ -23,3 +23,12 @@
 //}
 
 //export default App;
+
+export const App = () => {
+  return (
+    <>
+      <h1>こんにちは</h1>
+      <p>タグで囲むルール</p>
+    </>
+  );
+};

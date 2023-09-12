@@ -15,14 +15,6 @@
 
 
 import ReactDOM from "react-dom";
-
-const App = () => {
-  return (
-    <>
-      <h1>こんにちは</h1>
-      <p>タグで囲むルール</p>
-    </>
-  );
-};
+import { App } from "./App";
 
 ReactDOM.render(<App />, document.getElementById("root"));

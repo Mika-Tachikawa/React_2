@@ -34,10 +34,16 @@ export const App = () => {
     fontSize: "20px"
   };
   
+  const contentPinkStyle = {
+    color: "pink",
+    fontSize: "20px"
+  };
+  
   return (
     <>
       <h1 style={{ color: "red" }}>こんにちは</h1>
       <p style={contentStyle}>タグで囲むルール</p>
+      <p style={contentPinkStyle}>ピンクの文字確認</p>
       <button onClick={onClickButton}>ボタン</button>
     </>
   );

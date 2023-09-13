@@ -25,10 +25,15 @@
 //export default App;
 
 export const App = () => {
+  const onClickButton = () => {
+    alert();
+  };
+  
   return (
     <>
       <h1>こんにちは</h1>
       <p>タグで囲むルール</p>
+      <button onClick={onClickButton}>ボタン</button>
     </>
   );
 };

@@ -24,14 +24,11 @@
 
 //export default App;
 
+import { ColoredMessage } from "./components/ColoredMessage";
+
 export const App = () => {
   const onClickButton = () => {
     alert();
-  };
-  
-  const contentStyle = {
-    color: "blue",
-    fontSize: "20px"
   };
   
   const contentPinkStyle = {
@@ -42,7 +39,7 @@ export const App = () => {
   return (
     <>
       <h1 style={{ color: "red" }}>こんにちは</h1>
-      <p style={contentStyle}>タグで囲むルール</p>
+      <ColoredMessage />
       <p style={contentPinkStyle}>ピンクの文字確認</p>
       <button onClick={onClickButton}>ボタン</button>
     </>

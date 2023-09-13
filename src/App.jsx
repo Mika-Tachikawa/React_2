@@ -29,10 +29,15 @@ export const App = () => {
     alert();
   };
   
+  const contentStyle = {
+    color: "blue",
+    fontSize: "20px"
+  };
+  
   return (
     <>
-      <h1>こんにちは</h1>
-      <p>タグで囲むルール</p>
+      <h1 style={{ color: "red" }}>こんにちは</h1>
+      <p style={contentStyle}>タグで囲むルール</p>
       <button onClick={onClickButton}>ボタン</button>
     </>
   );

@@ -40,6 +40,7 @@ export const App = () => {
     <>
       <h1 style={{ color: "red" }}>こんにちは</h1>
       <ColoredMessage />
+      <ColoredMessage color="blue" message="お元気ですか？" />
       <p style={contentPinkStyle}>ピンクの文字確認</p>
       <button onClick={onClickButton}>ボタン</button>
     </>

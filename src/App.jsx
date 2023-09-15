@@ -31,17 +31,12 @@ export const App = () => {
     alert();
   };
   
-  const contentPinkStyle = {
-    color: "pink",
-    fontSize: "20px"
-  };
-  
   return (
     <>
       <h1 style={{ color: "red" }}>こんにちは</h1>
       <ColoredMessage />
       <ColoredMessage color="blue" message="お元気ですか？" />
-      <p style={contentPinkStyle}>ピンクの文字確認</p>
+      <ColoredMessage color="pink" message="元気です！" />
       <button onClick={onClickButton}>ボタン</button>
     </>
   );

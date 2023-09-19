@@ -69,11 +69,11 @@
 
 
 
-export const StyledJsx = () => {
+export const App = () => {
   return (
     <div>
-    <p>Styled JSX</p>
-    <button>ボタン</button>
+      <p>Styled JSX</p>
+      <button>ボタン</button>
     </div>
   );
 };

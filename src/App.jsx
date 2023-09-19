@@ -48,13 +48,15 @@
   //);
 //};
 
-
+import classes from "./App.module.scss";
 
 export const App = () => {
   return (
     <div>
-      <p>CSS Modules</p>
-      <button>ボタン</button>
+      <div className={classes.container}>
+        <p className={classes.title}>CSS Modules</p>
+        <button className={classes.button}>ボタン</button>
+      </div>
     </div>
   );
 };
